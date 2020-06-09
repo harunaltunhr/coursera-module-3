@@ -1,14 +1,71 @@
+*{
+    font-size: 20px;
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    font-size: 1.2em;
+
+}
+
 header{
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: blanchedalmond;
+    border: brown 2px solid;
+    width:100%;
+    top: 3px;
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+a{
+    text-decoration: none;
+    color:red;
 }
 .heading{
     text-align: center;
+display: block;
 }
-.menu{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+width: 100%;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black; 
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+  .dropdown-content ul{
+      list-style: none;
+  }
